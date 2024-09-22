@@ -1,0 +1,72 @@
+
+
+<section>
+  <div class="products-container">
+    <!-- Category Selector -->
+    <app-categories (productChanged)="onCategorySelected($event)"></app-categories>
+
+    <h2>Selected Products:</h2>
+    <table class="products-table">
+      <thead>
+        <tr>
+          <th>Product ID</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Buy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of filteredProducts">
+          <td>{{ product._id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.price | currency }}</td>
+          <td>
+            <div class="quantity-controls">
+              <button (click)="updateQuantity(product._id, -1, quantityInput)">-</button>
+              <input #quantityInput type="number" value="1" min="1" [max]="product.quantity">
+              <button (click)="updateQuantity(product._id, 1, quantityInput)">+</button>
+            </div>
+          </td>
+          <td>
+            <button (click)="updateQuantity(product._id, 0, quantityInput)">Buy</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Shopping Cart Section -->
+    <div *ngIf="shoppingCartItems.length > 0" class="shopping-cart">
+      <h3>Shopping Cart</h3>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of shoppingCartItems">
+            <td>{{ item.ID }}</td>
+            <td>{{ item.Name }}</td>
+            <td>{{ item.UnitPrice | currency }}</td>
+            <td>{{ item.SelectedQuantity }}</td>
+            <td>{{ item.UnitPrice * item.SelectedQuantity | currency }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="cart-totals">
+        <h4>Total Price: {{ totalPrice | currency }}</h4>
+        <h4>Tax (14%): {{ tax | currency }}</h4>
+      </div>
+    </div>
+
+    <!-- Shopping Cart Component -->
+    <app-shopping-cart [Totalprice]="totalPrice"></app-shopping-cart>
+  </div>
+</section>
+
+

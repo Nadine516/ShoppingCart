@@ -1,0 +1,31 @@
+
+<!-- layout.component.html -->
+<div class="layout-container">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <h1 class="logo">My Bookstore</h1>
+      <nav class="header-nav">
+        <a routerLink="/home" routerLinkActive="active">Home</a>
+        <a routerLink="/products" routerLinkActive="active">products</a>
+        <a routerLink="/book" routerLinkActive="active">Book</a>
+        <a routerLink="/about-us" routerLinkActive="active">About Us</a>
+        <a routerLink="/contact-us" routerLinkActive="active">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="layout-body">
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 My Bookstore. All rights reserved.</p>
+  </footer>
+</div>

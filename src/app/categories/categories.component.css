@@ -1,0 +1,53 @@
+/* Styling for the overall row */
+.row {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  background-color: #f8f9fa; /* Light gray background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Label styling */
+label {
+  font-size: 1.2rem; /* Slightly larger font size for emphasis */
+  font-weight: 600; /* Bold weight for better readability */
+  margin-right: 1.5rem; /* Increased space between label and dropdown */
+  color: #343a40; /* Darker color for better contrast */
+}
+
+/* Selected categories div */
+.selected-categories {
+  flex: 1; /* Ensures it takes up remaining space */
+  max-width: 400px; /* Limits the width to prevent overflow */
+}
+
+/* Select dropdown styling */
+select.form-control {
+  width: 100%;
+  padding: 0.75rem; /* Increased padding for better usability */
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #495057;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Select dropdown focus state */
+select.form-control:focus {
+  border-color: #007bff; /* Bootstrap primary color */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Focus shadow */
+  outline: none;
+}
+
+/* Hover effect for dropdown */
+select.form-control:hover {
+  border-color: #80bdff; /* Lighter blue */
+}
+
+/* Optional padding adjustment for the select box */
+select.form-control option {
+  padding: 10px;
+}

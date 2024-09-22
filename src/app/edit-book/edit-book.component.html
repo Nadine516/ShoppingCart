@@ -1,0 +1,14 @@
+
+<!-- src/app/edit-book/edit-book.component.html -->
+<div *ngIf="isLoading" class="spinner">Loading...</div>
+
+<div *ngIf="!isLoading && book">
+  <form (ngSubmit)="updateBook()">
+    <input [(ngModel)]="book.name" placeholder="Book Name" name="name" required />
+    <input [(ngModel)]="book.author" placeholder="Author" name="author" required />
+    <input [(ngModel)]="book.price" placeholder="Price" name="price" type="number" required />
+    <button type="submit">Update Book</button>
+  </form>
+</div>
+
+<div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>

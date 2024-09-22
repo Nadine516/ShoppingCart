@@ -1,0 +1,14 @@
+<section>
+  <div class="row">
+    <label for="categorySelect">Select Category:</label>
+    <select id="categorySelect" class="form-control" (change)="onCategoryChange($event)">
+      <option value="0">All Categories</option>
+      <option *ngFor="let category of categories" [value]="category.id">
+        {{ category.name }}
+      </option>
+    </select>
+  </div>
+</section>
+
+
+  

@@ -1,0 +1,9 @@
+/* Styling for the price display */
+h1 {
+    font-size: 2rem; /* Large font size */
+    color: #091f36; /* Bootstrap primary color for emphasis */
+    font-weight: bold; /* Bold to highlight the price */
+    margin-top: 1.5rem;
+    text-align: center; /* Center-align the text */
+  }
+  

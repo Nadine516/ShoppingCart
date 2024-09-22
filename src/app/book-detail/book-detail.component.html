@@ -1,0 +1,15 @@
+<div *ngIf="isLoading">Loading book details...</div>
+
+<div *ngIf="!isLoading && book; else errorTemplate">
+  <h2>{{ book.name }}</h2>
+  <img [src]="book.image" alt="{{ book.name }}" class="book-cover" *ngIf="book.image"/>
+  <p>Author: {{ book.author }}</p>
+  <p>Price: {{ book.price | currency }}</p>
+  <p *ngIf="book.description">Description: {{ book.description }}</p>
+  <p *ngIf="book.category">Category: {{ book.category.title }}</p>
+  <p *ngIf="book.status">Status: {{ book.status }}</p>
+</div>
+
+<ng-template #errorTemplate>
+  <p *ngIf="errorMessage">{{ errorMessage }}</p>
+</ng-template>

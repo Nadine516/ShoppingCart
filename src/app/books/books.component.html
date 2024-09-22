@@ -1,0 +1,17 @@
+
+<h2>Available Books</h2>
+<div class="book-card-container">
+  <div class="book-card" *ngFor="let book of books">
+    <img [src]="book.image" alt="{{ book.name }}" *ngIf="book.image"/>
+    <h3>{{ book.name }}</h3>
+    <p>Author: {{ book.author }}</p>
+    <p>Price: {{ book.price | currency }}</p>
+    <div class="button-group">
+      <a [routerLink]="['/bookDetail']" [queryParams]="{ id: book._id }" class="btn btn-primary">View Details</a>
+      <button class="btn btn-success" (click)="addBook()">Add Book</button>
+      <button class="btn btn-danger" (click)="deleteBook(book._id)">Delete Book</button>
+      <button class="btn btn-warning" (click)="editBook(book._id)">Edit Book</button>
+    </div>
+  </div>
+</div>
+

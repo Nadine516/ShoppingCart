@@ -1,0 +1,45 @@
+<div class="register-container">
+  <h2>Register</h2>
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <!-- First Name -->
+    <input type="text" formControlName="first_name" placeholder="First Name" required 
+           [ngClass]="{'is-invalid': submitted && formControls['first_name'].invalid}">
+    <div *ngIf="submitted && formControls['first_name'].errors?.['required']" class="error">
+      <p>First Name is required</p>
+    </div>
+
+    <input type="text" formControlName="last_name" placeholder="Last Name " required 
+    [ngClass]="{'is-invalid': submitted && formControls['last_name'].invalid}">
+   <div *ngIf="submitted && formControls['last_name'].errors?.['required']" class="error">
+    <p>last_name Name is required</p>
+   </div>
+
+    <!-- Email -->
+    <input type="email" formControlName="email" placeholder="Email" required 
+           [ngClass]="{'is-invalid': submitted && formControls['email'].invalid}">
+    <div *ngIf="submitted && formControls['email'].errors?.['required']" class="error">
+      <p>Email is required</p>
+    </div>
+    <div *ngIf="submitted && formControls['email'].errors?.['email']" class="error">
+      <p>Please enter a valid email</p>
+    </div>
+
+    <!-- Password -->
+    <input type="password" formControlName="password" placeholder="Password" required 
+           [ngClass]="{'is-invalid': submitted && formControls['password'].invalid}">
+    <div *ngIf="submitted && formControls['password'].errors?.['required']" class="error">
+      <p>Password is required</p>
+    </div>
+    <div *ngIf="submitted && formControls['password'].errors?.['minlength']" class="error">
+      <p>Password must be at least 6 characters</p>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" [disabled]="registerForm.invalid">Register</button>
+  </form>
+
+  <p>Already have an account? <a routerLink="/auth/login">Login here</a></p>
+</div>
+
+  

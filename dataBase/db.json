@@ -1,0 +1,662 @@
+{
+    "category": [
+      {
+        "catname": "Car",
+        "catid": 1
+      },
+      {
+        "catname": "Laptop",
+        "catid": 2
+      },
+      {
+        "catname": "Clothes",
+        "catid": 3
+      },
+      {
+        "catname": "phones",
+        "catid": 4
+      }
+    ],
+    "Products": [
+      {
+        "name": "Citroen C1 ",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "price": "$461115",
+        "image": "/assets/images/Citroen C1.jpg",
+        "type": "Car",
+        "id": 1
+      },
+      {
+        "id": 38,
+        "Categoryid": 2,
+        "name": "Microsoft Surface Laptop",
+        "Description": " Microsoft Surface Laptop Go 12.4 -Core I5-1035G1 - 8GB - 128GB SSD - 12.4 Inch Touch - Intel UHD Graphics - Win10 - Platinum",
+        "price": "EGP 16,900.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/237062/1.jpg?9654",
+        "brand": " Microsoft",
+        "type": "Laptop"
+      },
+      {
+        "id": 62,
+        "Categoryid": 4,
+        "name": "iPhone XS Max",
+        "Description": "AppleiPhone Xs Max Dual SIM With FaceTime Gold 256GB 4G LTE",
+        "price": "EGP 14000.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/5.jpg"
+      },
+      {
+        "id": 66,
+        "Categoryid": 4,
+        "name": "note11-W",
+        "Description": "SInfinixNote 11 Dual Sim 4 GB RAM 128GB 4G LTE Celestial Snow",
+        "price": "EGP 3999.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/9.jpg"
+      },
+      {
+        "id": 39,
+        "Categoryid": 3,
+        "name": "Dress",
+        "Description": " LC Waikiki Crew Neck Short Sleeve Girl Dress",
+        "price": "EGP 119.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/133252/1.jpg?7054",
+        "brand": "LC Waikiki ",
+        "type": "Clothes"
+      },
+      {
+        "id": 63,
+        "Categoryid": 4,
+        "name": "Redmi 9c-Orange",
+        "Description": "XiaomiRedmi 9C Dual SIM Orange 4GB RAM 128GB 4G LTE",
+        "price": "EGP 3350.00 (Inclusive of VAT)",
+        "type": "mobile",
+        "image": "/assets/images/6.jpg"
+      },
+      {
+        "id": 64,
+        "Categoryid": 4,
+        "name": "RMX3370",
+        "Description": "realmeGT Neo 2 Dual Sim 256GB 12GB 5G Neo Blue With Realme Watch 2 Gift",
+        "price": "EGP 11999.00 (Inclusive of VAT)",
+        "type": "mobile",
+        "image": "/assets/images/7.jpg"
+      },
+      {
+        "id": 65,
+        "Categoryid": 4,
+        "name": "SM-A536ELBGMEA",
+        "Description": "SamsungGalaxy A53 Dual SIM Awesome Blue 8GB RAM 128 GB 5G - Middle East Version",
+        "price": "EGP 8799.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/8.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Skoda Kodiaq",
+        "Categoryid": 1,
+        "price": "$36200",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Skoda Kodiaq.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 15,
+        "name": "Land Rover Range Rover",
+        "Categoryid": 1,
+        "price": "$51600",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Land Rover Range Rover.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 58,
+        "Categoryid": 4,
+        "name": "Infinix Note 11",
+        "Description": "Infinix Note 11 Dual Sim 6 GB RAM 128GB 4G LTE Graphite Black",
+        "price": "EGP 4170.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/1.jpg"
+      },
+      {
+        "id": 59,
+        "Categoryid": 4,
+        "name": "iPhone 12 Pro Max",
+        "Description": "AppleiPhone 12 Pro Max With Facetime 256GB Pacific Blue 5G - International Specs",
+        "price": "EGP 21999.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/2.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Dacia Duster",
+        "Categoryid": 1,
+        "price": "$15900",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Dacia Duster.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 17,
+        "name": "BMW 7 Series",
+        "Categoryid": 1,
+        "price": "$60000",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/BMW 7 Series.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 18,
+        "name": "Mercedes-Benz GLS",
+        "Categoryid": 1,
+        "price": "$41220",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Mercedes-Benz GLS.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 19,
+        "Categoryid": 2,
+        "name": "Lenovo V15-IGL Laptop",
+        "Description": "Intel Celeron N4020 - 4GB RAM - 1TB HDD - Intel UHD Graphics 600 - 15.6-inch HD - DOS - Iron Grey",
+        "price": "EGP4,880,000",
+        "image": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/86/817252/1.jpg?9461",
+        "brand": "Lenovo",
+        "type": "Laptop"
+      },
+      {
+        "id": 20,
+        "Categoryid": 2,
+        "name": "HP 240 G7-1L3L4Ea Notebook Laptop",
+        "Description": "Intel Core I3-1005G1 - 4GB RAM 1TB HDD - 14.1-inch - Intel UHD Graphics  DOS - Black  English/Arabic Keyboard",
+        "price": "EGP6,888,000",
+        "image": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/06/420252/1.jpg?0969",
+        "brand": "HP",
+        "type": "Laptop"
+      },
+      {
+        "id": 45,
+        "Categoryid": 3,
+        "name": "Pyjama",
+        "Description": "Defacto BabyGirl Beige 2-pieces Pyjamas",
+        "price": "EGP 169.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/592742/1.jpg?5465",
+        "brand": " Defacto",
+        "type": "Clothes"
+      },
+      {
+        "id": 46,
+        "Categoryid": 3,
+        "name": "Salopet",
+        "Description": "LC Waikiki Square Neck Strap Patterned Baby Girl Salopet",
+        "price": "EGP 169.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/233252/1.jpg?7231",
+        "brand": "LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 46,
+        "Categoryid": 3,
+        "name": "T-Shirt And Trousers",
+        "Description": "LC Waikiki Lcw Green Crew Neck Short Sleeve Printed Organic Cotton Baby Boy T-Shirt And Trousers 2 Pieces",
+        "price": "EGP 169.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/024252/1.jpg?2669",
+        "brand": "LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 47,
+        "Categoryid": 3,
+        "name": "Jumpsuit",
+        "Description": "Fashion Baby Boys Gentleman Romper Short Sleeves Jumpsuit With Bowknot",
+        "price": "EGP 90.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/58/487922/1.jpg?8817",
+        "brand": " Fashion",
+        "type": "Clothes"
+      },
+      {
+        "id": 48,
+        "Categoryid": 3,
+        "name": " Pajama",
+        "Description": "Junior Pajama Set 1209 For Baby Boys",
+        "price": "EGP 160.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/00/007612/1.jpg?1471",
+        "brand": " Junior",
+        "type": "Clothes"
+      },
+      {
+        "id": 28,
+        "Categoryid": 2,
+        "name": "DELL G15 5511 Gaming Laptop",
+        "Description": "Intel Core I7-11800H - 16GB RAM - 512GB SSD - NVIDIA GeForce RTX 3050 4GB -15.6 Inch FHD 120Hz Display - Ubuntu - DARK SHADOW GREY",
+        "price": "EGP 22,999.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/92/627932/1.jpg?2827",
+        "brand": "DELL",
+        "type": "Laptop"
+      },
+      {
+        "id": 29,
+        "Categoryid": 2,
+        "name": "Apple MacBook Pro ",
+        "Description": "Apple MacBook Pro 16 M1 -10C CPU 16C GPU - 16GB - 512GB - Silver - Arabic Keyboard",
+        "price": "EGP 69,900.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/630152/1.jpg?6732",
+        "brand": "Apple ",
+        "type": "Laptop"
+      },
+      {
+        "id": 30,
+        "Categoryid": 2,
+        "name": "Lenovo IdeaPad 3 Laptop",
+        "Description": "Lenovo IdeaPad 3-15IML05 Laptop - Intel Core I3 - 4GB RAM - 1TB HDD - 15.6-inch FHD - 2GB GPU - Windows 11- Abyss Blue",
+        "price": "EGP 8,999.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/18/409942/1.jpg?9168",
+        "brand": "Lenovo",
+        "type": "Laptop"
+      },
+      {
+        "id": 31,
+        "Categoryid": 2,
+        "name": "Microsoft Surface Pro 7 Laptop",
+        "Description": "Microsoft Surface Pro 7 Tablet - Intel Core I3 - 4GB RAM - 128GB SSD - 12.3-inch FHD+ - Intel GPU - Windows 10 - Silver",
+        "price": "EGP 13,999.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/417102/1.jpg?7350",
+        "brand": "Microsoft",
+        "type": "Laptop"
+      },
+      {
+        "id": 32,
+        "Categoryid": 2,
+        "name": "MSI Modern 14 B4MW Laptop",
+        "Description": "MSI Modern 14 B4MW Laptop - AMD R5-4500U - 8GB RAM - 256GB SSD - 14 Inch FHD - AMD Radeon - DOS - Grey",
+        "price": "EGP 12,555.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/670632/1.jpg?7624",
+        "brand": "MSI",
+        "type": "Laptop"
+      },
+      {
+        "id": 33,
+        "Categoryid": 2,
+        "name": "Lenovo V15 Laptop",
+        "Description": " AMD 3020E - 4GB RAM - 1TB HDD - 15.6-inch HD - AMD GPU - DOS - Grey- Arabic/English Keyboard",
+        "price": "EGP 5,350.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/11/413442/1.jpg?3584",
+        "brand": "Lenovo",
+        "type": "Laptop"
+      },
+      {
+        "id": 34,
+        "Categoryid": 2,
+        "name": "HP 14-CF2224NIA Laptop ",
+        "Description": "Intel Core I5 - 4GB RAM - 1TB HDD - 14-inch HD - 2GB GPU - DOS - Black",
+        "price": "EGP 10,990.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/962322/1.jpg?8804",
+        "brand": "HP",
+        "type": "Laptop"
+      },
+      {
+        "name": "Rca Viking Pro 10 Inch  ",
+        "Description": "GPS - 2-in-1 Laptop & Tablet - Touchscreen - Android OS - Magenta",
+        "price": "EGP 3,499.000",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/26008/1.jpg?6045",
+        "type": "Laptop",
+        "id": 35
+      },
+      {
+        "id": 36,
+        "Categoryid": 2,
+        "name": "Lenovo V15 Laptop",
+        "Description": " Intel Core I5-1035G4 - 8GB RAM - 1TB HDD - 15.6-inch FHD - 2GB GPU - DOS",
+        "price": "EGP 12,785.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/17/056222/1.jpg?6723",
+        "brand": " Lenovo",
+        "type": "Laptop"
+      },
+      {
+        "id": 37,
+        "Categoryid": 2,
+        "name": "Lenovo IdeaPad V14 Laptop",
+        "Description": " IIL Laptop - Intel Core I3 - 4GB RAM - 1TB HDD - 14 Inch HD - Intel GPU - DOS - Iron Grey",
+        "price": "EGP 7,999.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/14/319802/1.jpg?7985",
+        "brand": " Lenovo",
+        "type": "Laptop"
+      },
+      {
+        "id": 40,
+        "Categoryid": 3,
+        "name": " Blouse",
+        "Description": "LC Waikiki Boat Neck Basic Short Sleeve Viscose Girls Blouse ",
+        "price": "EGP 89.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/893742/1.jpg?5058",
+        "brand": " LC Waikiki ",
+        "type": "Clothes"
+      },
+      {
+        "id": 41,
+        "Categoryid": 3,
+        "name": " T-shirt",
+        "Description": "Defacto Boy Black T-shirt ",
+        "price": "EGP 129.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/61/388942/1.jpg?8860",
+        "brand": " Defacto ",
+        "type": "Clothes"
+      },
+      {
+        "id": 42,
+        "Categoryid": 3,
+        "name": " Trousers",
+        "Description": "Defacto Girl Purple 1-piece Trousers",
+        "price": "EGP 99.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/513742/1.jpg?8970",
+        "brand": " Defacto ",
+        "type": "Clothes"
+      },
+      {
+        "id": 43,
+        "Categoryid": 3,
+        "name": "Tops + Shorts",
+        "Description": "Fashion Newborn Baby Girls Fashion Clothing 2 Pieces Set Floral Sling Ruffle Tops + Shorts ",
+        "price": "EGP 88.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/61/713422/1.jpg?6306",
+        "brand": " Fashion",
+        "type": "Clothes"
+      },
+      {
+        "id": 44,
+        "Categoryid": 3,
+        "name": "Dress",
+        "Description": "LC Waikiki Bebe Collar Long Sleeve Printed Baby Girl Dress ",
+        "price": "EGP 199.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/033252/1.jpg?6810",
+        "brand": " LC Waikiki ",
+        "type": "Clothes"
+      },
+      {
+        "id": 49,
+        "Categoryid": 3,
+        "name": " Pajama",
+        "Description": "Junior BUNNY Pejama Grey Colour",
+        "price": "EGP 355.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/390951/1.jpg?7332",
+        "brand": " Junior",
+        "type": "Clothes"
+      },
+      {
+        "id": 7,
+        "name": "Volkswagen Touareg",
+        "Categoryid": 1,
+        "price": "$52990",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Volkswagen Touareg.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 8,
+        "name": "BMW 2 Series",
+        "Categoryid": 1,
+        "price": "$14620",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/BMW 2 Series.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 9,
+        "name": "BMW 1 Series",
+        "Categoryid": 1,
+        "price": "$15100",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/BMW 1 Series.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 50,
+        "Categoryid": 3,
+        "name": " Pajama",
+        "Description": "Junior Pajama Set For Baby Girl With Hoodie - Pistachio",
+        "price": "EGP 240.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/80/924202/1.jpg?3622",
+        "brand": " Junior",
+        "type": "Clothes"
+      },
+      {
+        "id": 51,
+        "Categoryid": 3,
+        "name": " Pajama",
+        "Description": "Junior Sweet Girl Pejama For Girls",
+        "price": "EGP 185.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/255951/1.jpg?8185",
+        "brand": " Junior",
+        "type": "Clothes"
+      },
+      {
+        "id": 21,
+        "Categoryid": 2,
+        "name": "DELL Vostro 3510",
+        "Description": "Intel Core I7 - 8GB RAM - 1TB HDD - 15.6-inch FHD - 2GB GPU - Ubuntu - Carbon Black",
+        "price": "EGP15,699.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/73/369252/1.jpg?2548",
+        "brand": "DELL",
+        "type": "Laptop"
+      },
+      {
+        "id": 10,
+        "name": "Ford Mustang",
+        "Categoryid": 1,
+        "price": "$62420",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Ford Mustang.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 12,
+        "name": "Ford Edge",
+        "Categoryid": 1,
+        "price": "$29990",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Ford Edge.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 22,
+        "Categoryid": 2,
+        "name": "HP 15-ef2127wm Laptop ",
+        "Description": "AMD Ryzen 5 5500U 6-Cores - 8GB RAM - 256 SSD - 15.6-inch HD - AMD Radeon Graphics - Windows 10 - Silver",
+        "price": "EGP11,444.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/584252/1.jpg?8045",
+        "brand": "HP",
+        "type": "Laptop"
+      },
+      {
+        "id": 23,
+        "Categoryid": 2,
+        "name": "Lenovo IdeaPad L3 15-ITL6  ",
+        "Description": " Intel Core I5-1135G7 - 8GB RAM -1TB HDD - 15.6-Inch - Intel Iris - DOS - Grey",
+        "price": "EGP 15,500.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/80/987052/1.jpg?5565",
+        "brand": "Lenovo",
+        "type": "Laptop"
+      },
+      {
+        "id": 24,
+        "Categoryid": 2,
+        "name": "Apple MacBook Pro 16 M1",
+        "Description": " 10C CPU 16C GPU - 16GB - 512GB - Silver - Arabic Keyboard",
+        "price": "EGP 69,900.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/630152/1.jpg?6732",
+        "brand": " Apple ",
+        "type": "Laptop"
+      },
+      {
+        "id": 25,
+        "Categoryid": 2,
+        "name": "DELL Vostro 3510",
+        "Description": " Intel Core I7 - 16GB RAM - 1TB HDD - 256GB SSD - 15.6-inch FHD - 2GB GPU - DOS - Carbon Black",
+        "price": "EGP 16,888.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/602052/1.jpg?9604",
+        "brand": "DELL",
+        "type": "Laptop"
+      },
+      {
+        "id": 26,
+        "Categoryid": 2,
+        "name": "DELL Inspiron 3511",
+        "Description": " Core I5 1135G7 - 8G RAM - 512 NVME - VGA Nvidia 2G MX 350 - 15.6 FHD - Windows 10 - Platinum Silver",
+        "price": "EGP 13,770.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/95/640352/1.jpg?1472",
+        "brand": "DELL",
+        "type": "Laptop"
+      },
+      {
+        "id": 27,
+        "Categoryid": 2,
+        "name": "Asus 15 X515EP-BQ254T Laptop",
+        "Description": "Ci7-1165G7 - 8GB - 512GB SSD - MX330 2GB - 15.6 FHD - Win10 - Silver",
+        "price": "EGP 15,950.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/01/006742/1.jpg?4328",
+        "brand": "Asus",
+        "type": "Laptop"
+      },
+      {
+        "id": 52,
+        "Categoryid": 3,
+        "name": " Pajama",
+        "Description": "Junior Pajama Set For Baby Girl 2602-Pink",
+        "price": "EGP 160.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/51/079112/1.jpg?2644",
+        "brand": " Junior",
+        "type": "Clothes"
+      },
+      {
+        "id": 53,
+        "Categoryid": 3,
+        "name": "  Dress",
+        "Description": "LC Waikiki Embroidery Detailed Blouse And Dress For Baby Gir",
+        "price": "EGP 229.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/30/033252/1.jpg?6812",
+        "brand": " LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 54,
+        "Categoryid": 3,
+        "name": "  Dress",
+        "Description": "LC Waikiki Crew Neck Long Sleeve Cotton Polka Dot Patterned Baby Girl Sweatshirt And Trousers 2-Pack Set",
+        "price": "EGP 229.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/79/815942/1.jpg?4015",
+        "brand": " LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 55,
+        "Categoryid": 3,
+        "name": "  Jean Shirt",
+        "Description": "LC Waikiki Peter Pan Collar Short Sleeved Baby Girl Jean Shirt",
+        "price": "EGP 119.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/093742/1.jpg?5701",
+        "brand": " LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 2,
+        "name": "Vauxhall Viv",
+        "Categoryid": 1,
+        "price": "$6410",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Vauxhall Viva.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 3,
+        "name": "Mazda 3",
+        "Categoryid": 1,
+        "price": "$8160",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Mazda 3.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 69,
+        "name": "Mazda 3",
+        "Categoryid": 1,
+        "price": "$8160",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Mazda 3.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 5,
+        "name": "Mercedes-Benz E Class",
+        "Categoryid": 1,
+        "price": "$12350",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Mercedes-Benz E Class.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 6,
+        "name": "Mercedes-Benz C Class",
+        "Categoryid": 1,
+        "price": "$12990",
+        "Description": "Disclaimer: Standard equipment and technical information are provided by third party suppliers and there may be differences with each specific vehicle",
+        "image": "/assets/images/Mercedes-Benz C Class.jpg",
+        "type": "Car"
+      },
+      {
+        "id": 56,
+        "Categoryid": 3,
+        "name": "  Jean Shirt",
+        "Description": "LC Waikiki Peter Pan Collar Short Sleeved Baby Girl Jean Shirt",
+        "price": "EGP 125.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/093742/1.jpg?5701",
+        "brand": " LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 57,
+        "Categoryid": 3,
+        "name": " Dress",
+        "Description": "LC Waikiki Square Neck Short Sleeve Patterned Cotton Baby Girl Dress",
+        "price": "EGP 199.00",
+        "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/033252/1.jpg?6929",
+        "brand": " LC Waikiki",
+        "type": "Clothes"
+      },
+      {
+        "id": 60,
+        "Categoryid": 4,
+        "name": "RMX3491-BL4",
+        "Description": "9i Dual SIM 4GB RAM 128G ROM 4G LTE Prism Blue",
+        "price": "EGP 3999.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/3.jpg"
+      },
+      {
+        "id": 61,
+        "Categoryid": 4,
+        "name": "4549995280463/blue",
+        "Description": "Apple Iphone 13 Pro Max 6GB Ram 256G 5G Without Facetime",
+        "price": "EGP 24888.00 (Inclusive of VAT)",
+        "image": "/assets/images/4.jpg",
+        "type": "mobile"
+      },
+      {
+        "id": 67,
+        "Categoryid": 4,
+        "name": "RMX3235",
+        "Description": "realmeNarzo 50i Dual Sim 32GB 2GB 4G Lte Carbon Black",
+        "price": "EGP 19000.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/10.jpg"
+      },
+      {
+        "id": 68,
+        "Categoryid": 4,
+        "name": "iPhone 11 Pro Max",
+        "Description": "AppleiPhone 11 Pro Max With FaceTime Silver 256GB 4G LTE - International Specs",
+        "price": "EGP 19000.00 Inclusive of VAT",
+        "type": "mobile",
+        "image": "/assets/images/11.jpg"
+      }
+    ]
+  }
